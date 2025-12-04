@@ -15,6 +15,69 @@ rel="stylesheet">
             font-size: 16px;
             border: 1px solid #ccc;
         } */
+
+        /* speech.css */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            background: #f2f2f2;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 400px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            margin: 15px 0;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        
+        button {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        
+        button:active {
+            background-color: #45a049;
+        }
+        
+        h1 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        
+        /* Mobile-friendly adjustments */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 20px;
+            }
+            input[type="text"], button {
+                font-size: 14px;
+                padding: 10px;
+            }
+        }
         .container {
             max-width: 600px;
             margin: 50px auto;
