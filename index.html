@@ -29,14 +29,25 @@
             max-width: 450px;
             background: white;
             padding: 25px;
-            border-radius: 15px;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.85);
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.80);
+            background: linear-gradient(to right, rgb(214, 237, 245), rgb(246, 209, 215));
             text-align: center;
+        }
+        .container-box1 {
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: whitesmoke;
+            border-radius: 12px;
+            
         }
 
         .container-box img {
             width: 100px;
             margin-bottom: 10px;
+            border-radius: 50px;
         }
 
         input {
@@ -49,10 +60,10 @@
         }
 
         button {
-            width: 30%;
+            width: 100%;
             padding: 12px;
             font-size: 18px;
-            background: #83c4f3;
+            background:rgb(144, 208, 248);
             border: none;
             border-radius: 8px;
             color: white;
@@ -74,6 +85,7 @@
 
 <body>
     <div class="container-box">
+        <div class="container-box1">
         <img src="https://www.kindpng.com/picc/m/78-786207_text-to-speech-png-text-to-speech-icon-hd.png" alt="Text to Voice">
         <h1>Text to Voice</h1>
 
@@ -82,6 +94,7 @@
         <button onclick="speak()">
             <i class="fa-solid fa-volume-high"></i> Speak
         </button>
+        </div>
     </div>
 
     <script>
